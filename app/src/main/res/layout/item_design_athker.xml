@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/main_Azkaree_card"
+    android:background="?attr/cardBackgroundColor"
+    >
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="60dp"
+     android:background="?attr/cardBackgroundColor"
+     >
+    <ImageView
+        android:id="@+id/item_image_azkaree"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/ic_morning"
+        android:layout_gravity="center"
+        />
+     <TextView
+         android:id="@+id/item_title_azkaree"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="أذكار الصباح"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:layout_marginStart="15dp"
+         android:textColor="?attr/textcolor"
+         android:textSize="14dp"
+         />
+
+ </LinearLayout>
+</androidx.cardview.widget.CardView>

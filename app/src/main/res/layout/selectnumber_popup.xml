@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="?attr/cardBackgroundColor">
+
+    <LinearLayout
+        android:id="@+id/passwprd_dialod"
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/cardBackgroundColor">
+
+<TextView
+    android:id="@+id/title_password_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="حدد الرقم الذي تريده"
+    android:layout_gravity="center"
+    android:textSize="17dp"
+    android:textStyle="bold"
+    android:textColor="?attr/textcolor"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/etxt_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اكتب هنا"
+            android:textColor="?attr/textcolor"
+            android:textColorHint="?attr/textcolor"
+            android:maxLength="6"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ"
+            android:elevation="2dp"
+            android:background="@drawable/btn_save"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

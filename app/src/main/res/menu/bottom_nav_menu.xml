@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/athker"
+        android:icon="@drawable/ic_home"
+        android:title="أذكاري" />
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="المفضلة" />
+
+    <item
+        android:id="@+id/mala"
+        android:icon="@drawable/ic_mala"
+        android:title="المسبحة"
+        />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_setting"
+        android:title="الاعدادات" />
+
+</menu>

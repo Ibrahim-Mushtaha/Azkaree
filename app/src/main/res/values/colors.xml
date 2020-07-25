@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00CD6B</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#00CD6B</color>
+    <color name="white">#ffffff</color>
+
+
+
+    <!-- color for button style -->
+    <color name="gradint_Start_color">#4c84ff</color>
+    <color name="gradint_end_color">#18a3fe</color>
+
+
+    <!-- color for tab and screen_layout text -->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="itro_title_color">#000000</color>
+    <color name="itro_description_color">#656565</color>
+</resources>
