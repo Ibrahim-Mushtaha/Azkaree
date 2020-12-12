@@ -19,7 +19,7 @@ The app is available only in Arabic but I'm planning to release an English versi
 <ul>
 <li>Qibla Direction</li>
 <li>Add 99 names of Allah</li>
-<li><li>Add 99 names of Allah</li>
+<li>Add Islamic Wallpaper</li>
 <li>Update Tally Counter look and save its value locally</li>
 </ul>
 
