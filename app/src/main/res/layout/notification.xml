@@ -16,7 +16,10 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="55dp"
-            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="4dp"
             android:padding="8dp"
             android:src="@drawable/ic_app_logo"/>
 
@@ -41,7 +44,8 @@
                     android:id="@+id/btnDelete"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
                     android:drawableTint="#2B2B2B"
                     android:background="@drawable/ic_close_black"/>
 
